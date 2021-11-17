@@ -1,0 +1,40 @@
+SWD 20M STM32F411
+	Flash 擦写速度	57.52KB/S
+	Flash 读验证速度	548.85KB/S
+
+
+Thu Nov 18, 2021 07:45:48: IAR Embedded Workbench 8.40.2 (C:\Software\IAR Systems\Embedded Workbench 8.3\arm\bin\armproc.dll) 
+Thu Nov 18, 2021 07:45:48: Loaded macro file: C:\Software\IAR Systems\Embedded Workbench 8.3\arm\config\debugger\ST\STM32F4xx.dmac 
+Thu Nov 18, 2021 07:45:48: Loaded macro file: C:\Software\IAR Systems\Embedded Workbench 8.3\arm\config\flashloader\ST\FlashSTM32F4xxx.mac 
+Thu Nov 18, 2021 07:45:48: Loading the CMSIS-DAP driver 
+Thu Nov 18, 2021 07:45:48: Probe: CMSIS-DAP probe SW module ver 1.17 
+Thu Nov 18, 2021 07:45:48: Probe: Connecting to CMSIS-DAP v2:0 firmware v.0254 
+Thu Nov 18, 2021 07:45:48: Emulation layer version 4.50 
+Thu Nov 18, 2021 07:45:48: Notification to init-after-power-up hookup. 
+Thu Nov 18, 2021 07:45:48: Notification to core-connect hookup. 
+Thu Nov 18, 2021 07:45:48: Connected DAP v1 on SWD. Detected IDCODE=0x2ba01477. 
+Thu Nov 18, 2021 07:45:48: Connecting to TAP#0 DAP AHB-AP-CM port 0 (IDR=0x24770011). 
+Thu Nov 18, 2021 07:45:48: Recognized CPUID=0x410fc241 Cortex-M4 r0p1 arch ARMv7-M 
+Thu Nov 18, 2021 07:45:48: Debug resources: 6 instruction comparators, 4 data watchpoints. 
+Thu Nov 18, 2021 07:45:48: LowLevelReset(script, delay 200) 
+Thu Nov 18, 2021 07:45:48: Calling reset script: ConnectUnderReset 
+Thu Nov 18, 2021 07:45:48: Loaded debugee: C:\Software\IAR Systems\Embedded Workbench 8.3\arm\config\flashloader\ST\FlashSTM32F4xxxRAM128K.out 
+Thu Nov 18, 2021 07:45:48: Target reset 
+Thu Nov 18, 2021 07:45:56: Unloaded macro file: C:\Software\IAR Systems\Embedded Workbench 8.3\arm\config\flashloader\ST\FlashSTM32F4xxx.mac 
+Thu Nov 18, 2021 07:45:56: Downloaded C:\Users\talpa\Desktop\mbed-os-example-mbed5-blinky\BUILD\Exe\name.out to flash memory. 
+Thu Nov 18, 2021 07:45:56: 497952 bytes downloaded into FLASH (57.52 Kbytes/sec) 
+Thu Nov 18, 2021 07:45:57: Loaded debugee: C:\Users\talpa\Desktop\mbed-os-example-mbed5-blinky\BUILD\Exe\name.out 
+Thu Nov 18, 2021 07:45:58: LowLevelReset(software, delay 200) 
+Thu Nov 18, 2021 07:45:58: Calling reset script: SoftwareReset 
+Thu Nov 18, 2021 07:45:58: LowLevelReset(script, delay 200) 
+Thu Nov 18, 2021 07:45:58: Calling reset script: ConnectUnderReset 
+Thu Nov 18, 2021 07:45:58: 497952 bytes verified (548.85 Kbytes/sec) 
+Thu Nov 18, 2021 07:45:58: Download completed and verification successful. 
+Thu Nov 18, 2021 07:45:58: LowLevelReset(software, delay 200) 
+Thu Nov 18, 2021 07:45:58: Calling reset script: SoftwareReset 
+Thu Nov 18, 2021 07:45:58: Target reset 
+Thu Nov 18, 2021 07:45:58: INFO: Configuring trace using 'SWO,ETB' setting ... 
+Thu Nov 18, 2021 07:45:58: Trace: Using detected ETMv3CM at address 0xe0041000 
+Thu Nov 18, 2021 07:45:58: Trace: Access to detected ETMv3CM(architecture=3.5) initialized (CONF=0x8c842000, CTRL=0xc10, IDR=0x4114f250) 
+Thu Nov 18, 2021 07:45:58: INFO: SWO trace mode is not supported by the probe (use I-jet/I-jet-Trace probe) - trace is disabled. 
+Thu Nov 18, 2021 07:45:58: DMAC: HCLK and FCLK will not be disabled in SLEEP/STOP/STANDBY modes. 
