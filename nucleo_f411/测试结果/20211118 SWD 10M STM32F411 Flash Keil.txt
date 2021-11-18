@@ -1,0 +1,8 @@
+08:09:17.474
+08:09:23.344
+
+    Total RO  Size (Code + RO Data)               497332 ( 485.68kB)
+    Total RW  Size (RW Data + ZI Data)              9200 (   8.98kB)
+    Total ROM Size (Code + RO Data + RW Data)     497588 ( 485.93kB)
+
+485.93 / 5.87 = 82.78 KB/S
