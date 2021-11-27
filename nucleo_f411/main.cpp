@@ -10,7 +10,7 @@
 // Blinking rate in milliseconds
 #define BLINKING_RATE_MS                                                    500
 
-const uint8_t flash_fill[400 * 1024] = {0, 1, 2, 3, 4};
+const uint8_t flash_fill[50 * 1024] = {0, 1, 2, 3, 4};
 
 int main()
 {

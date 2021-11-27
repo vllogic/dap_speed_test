@@ -1386,7 +1386,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$PROJ_DIR$\mbed-os\targets\TARGET_STM\TARGET_STM32F4\TARGET_STM32F411xE\device\TOOLCHAIN_IAR\stm32f411xe.icf</state>
+                    <state>$PROJ_DIR$\mbed-os\targets\TARGET_STM\TARGET_STM32F4\TARGET_STM32F411xE\device\TOOLCHAIN_IAR\stm32f411xe_RAM.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
