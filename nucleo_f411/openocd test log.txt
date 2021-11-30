@@ -1,0 +1,93 @@
+Open On-Chip Debugger
+> dump_image out.bin 0x20000000 0x2000
+dumped 8192 bytes in 0.048344s (165.481 KiB/s)
+
+> adapter speed 8000
+adapter speed: 8000 kHz
+
+> dump_image out.bin 0x20000000 0x2000
+dumped 8192 bytes in 0.033815s (236.581 KiB/s)
+
+> adapter speed 16000                 
+adapter speed: 16000 kHz
+
+> 
+
+
+
+
+
+
+
+
+
+
+Open On-Chip Debugger
+> 
+> adapter speed 4000
+adapter speed: 4000 kHz
+
+> dump_image out.bin 0x20000000 0x2000
+dumped 8192 bytes in 0.047958s (166.813 KiB/s)
+
+> adapter speed 8000                  
+adapter speed: 8000 kHz
+
+> dump_image out.bin 0x20000000 0x2000
+dumped 8192 bytes in 0.033301s (240.233 KiB/s)
+
+> adapter speed 10000                 
+adapter speed: 10000 kHz
+
+> dump_image out.bin 0x20000000 0x2000
+dumped 8192 bytes in 0.032260s (247.985 KiB/s)
+
+> adapter speed 12000                 
+adapter speed: 12000 kHz
+
+> dump_image out.bin 0x20000000 0x2000
+dumped 8192 bytes in 0.029837s (268.123 KiB/s)
+
+> adapter speed 15000                 
+adapter speed: 15000 kHz
+
+> dump_image out.bin 0x20000000 0x2000
+dumped 8192 bytes in 0.028455s (281.146 KiB/s)
+
+> adapter speed 20000                 
+adapter speed: 20000 kHz
+
+> dump_image out.bin 0x20000000 0x2000
+dumped 8192 bytes in 0.026747s (299.099 KiB/s)
+
+> adapter speed 24000                 
+adapter speed: 24000 kHz
+
+> dump_image out.bin 0x20000000 0x2000
+dumped 8192 bytes in 0.024993s (320.090 KiB/s)
+
+> adapter speed 30000                 
+adapter speed: 30000 kHz
+
+> dump_image out.bin 0x20000000 0x2000
+dumped 8192 bytes in 0.023808s (336.021 KiB/s)
+
+> adapter speed 24000
+adapter speed: 24000 kHz
+
+> dump_image out.bin 0x08000000 0x2000
+dumped 8192 bytes in 0.024400s (327.869 KiB/s)
+
+> dump_image out.bin 0x20004000 0x1C00
+dumped 7168 bytes in 0.021347s (327.915 KiB/s)
+
+> load_image out.bin 0x20004000
+7168 bytes written at address 0x20004000
+downloaded 7168 bytes in 0.021513s (325.385 KiB/s)
+
+> verify_image out.bin 0x20004000
+target not halted
+error executing cortex_m crc algorithm
+verified 7168 bytes in 0.024731s (283.046 KiB/s)
+
+> 
